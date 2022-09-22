@@ -2,7 +2,7 @@
     // ini buat ngecek tombol yang namenya 'register' sudah di pencet atau belum
     // $_POST itu method di formnya
     if(isset($_POST['login'])){
-        include('../db.php'); // untuk mengoneksikan dengan databas dengan memanggil file db.php
+        include('D:/1. Kuliah/4. SMT 4/9. PBO/xampp/htdocs/GD4_A_0918/db.php'); // untuk mengoneksikan dengan databas dengan memanggil file db.php
         
         //tampung nilai yang ada di from ke variable
         // sesuaikan variabel name yang ada di registerPage.php disetiap input
